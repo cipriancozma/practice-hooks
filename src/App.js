@@ -1,4 +1,5 @@
 import "./App.css";
+import MainPage from "./context/MainPage";
 import EffectTutorial from "./hooks/EffectTutorial";
 // import InterviewQ from './InterviewQ';
 // import Promises from './Promises';
@@ -11,6 +12,7 @@ function App() {
       {/* <StateTutorial /> */}
       {/* <ReducerTutorial /> */}
       <EffectTutorial />
+      {/* <MainPage /> */}
       {/* <Promises /> */}
       {/* <InterviewQ /> */}
     </div>
