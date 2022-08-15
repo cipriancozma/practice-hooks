@@ -1,29 +1,29 @@
 import "./App.css";
-import FetchingDataWithReactQuery from "./FetchingDataWithReactQuery";
+// import FetchingDataWithReactQuery from "./FetchingDataWithReactQuery";
 // import MainPage from "./context/MainPage";
 import EffectTutorial from "./hooks/EffectTutorial";
 // import InterviewQ from './InterviewQ';
 // import Promises from './Promises';
 // import ReducerTutorial from './ReducerTutorial';
 // import StateTutorial from './StateTutorial';
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+// import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 function App() {
-  const queryClient = new QueryClient({
-    defaultOptions: {
-      queries: {
-        refetchOnWindowFocus: true,
-      },
-    },
-  });
+  // const queryClient = new QueryClient({
+  //   defaultOptions: {
+  //     queries: {
+  //       refetchOnWindowFocus: true,
+  //     },
+  //   },
+  // });
   return (
     <div className="App">
       {/* <StateTutorial /> */}
       {/* <ReducerTutorial /> */}
       <EffectTutorial />
-      <QueryClientProvider client={queryClient}>
+      {/* <QueryClientProvider client={queryClient}>
         <FetchingDataWithReactQuery />
-      </QueryClientProvider>
+      </QueryClientProvider> */}
 
       {/* <MainPage /> */}
       {/* <Promises /> */}
