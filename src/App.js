@@ -2,6 +2,7 @@ import "./App.css";
 // import FetchingDataWithReactQuery from "./FetchingDataWithReactQuery";
 // import MainPage from "./context/MainPage";
 import EffectTutorial from "./hooks/EffectTutorial";
+import JSInterview from "./js-concepts/JSInterview";
 // import InterviewQ from './InterviewQ';
 // import Promises from './Promises';
 // import ReducerTutorial from './ReducerTutorial';
@@ -24,7 +25,7 @@ function App() {
       {/* <QueryClientProvider client={queryClient}>
         <FetchingDataWithReactQuery />
       </QueryClientProvider> */}
-
+      {/* <JSInterview /> */}
       {/* <MainPage /> */}
       {/* <Promises /> */}
       {/* <InterviewQ /> */}
