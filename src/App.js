@@ -1,8 +1,9 @@
 import "./App.css";
+import { Form } from "./forms/Form";
 // import FetchingDataWithReactQuery from "./FetchingDataWithReactQuery";
 // import MainPage from "./context/MainPage";
 import EffectTutorial from "./hooks/EffectTutorial";
-import JSInterview from "./js-concepts/JSInterview";
+// import JSInterview from "./js-concepts/JSInterview";
 // import InterviewQ from './InterviewQ';
 // import Promises from './Promises';
 // import ReducerTutorial from './ReducerTutorial';
@@ -26,6 +27,7 @@ function App() {
         <FetchingDataWithReactQuery />
       </QueryClientProvider> */}
       {/* <JSInterview /> */}
+      <Form />
       {/* <MainPage /> */}
       {/* <Promises /> */}
       {/* <InterviewQ /> */}
